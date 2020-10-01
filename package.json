@@ -8,14 +8,11 @@
     "dist"
   ],
   "scripts": {
-    "test": "jest",
-    "lint": "eslint src",
-    "build": "rollup -c",
-    "prepare": "rollup -c"
+    "build": "webpack",
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vuejs/web-component-wrapper.git"
+    "url": "git+https://github.com/bborn/web-component-wrapper.git"
   },
   "keywords": [
     "vue",
